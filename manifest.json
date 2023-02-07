@@ -1,0 +1,13 @@
+{
+    "name": "YouTube Chrome Extension",
+    "description": "Change some Parts from YouTube so that you can be willing to stop watching YouTube so much time. ",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content_script.js"],
+        "css": ["content_style.css"]
+      }
+    ]
+  }

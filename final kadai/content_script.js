@@ -22,7 +22,7 @@ setTimeout(() =>{
   const profile = profiles[i];
   profile.classList.add("invert");}
 
-}, 13000)
+}, 10000)
 
 function f(n){
     const hours = [ "1","2","3","4"];
